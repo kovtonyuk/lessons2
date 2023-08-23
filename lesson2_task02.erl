@@ -2,5 +2,5 @@
 -export([but_last/1]).
 
 but_last(List) ->
-	[H, T | _] =lists:reverse(List),
+	[H, T | _] = lists:reverse(List),
 	[T, H].
